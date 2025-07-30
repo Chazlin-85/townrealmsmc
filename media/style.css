@@ -18,7 +18,7 @@ span {
 body {
     font-family:'Space Grotesk', sans-serif;
     background-color: var(--background1);
-    color: white;
+    color: blue;
     margin:0px;
 }
 
@@ -44,7 +44,7 @@ body {
 .banner {
     display: flex;
     position: fixed;
-    background-color: #ff000099;
+    background-color: #008080;
     width: 100%;
     height: 3rem;
     z-index: 10;
@@ -127,7 +127,7 @@ body {
 .mobile_navbar {
     display: none;
     overflow: hidden;
-    background-color: #00000033;
+    background-color: #008080;
     backdrop-filter: blur(15px);
     position: fixed;
     width: 100%;
@@ -152,7 +152,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #00000011;
+    background-color: #008080;
 }
 
 .mobile_navbar_link {
@@ -167,7 +167,7 @@ body {
 }
 
 .mobile_navbar .icon {
-    background-color: #00000044;
+    background-color: #008080;
     display: block;
     position: absolute;
     right: 0;
@@ -270,7 +270,7 @@ body {
     text-align: center;
     background-color: rgba(0, 175, 0, 0.1);
     border:solid rgba(0, 175, 0, 1) 1px;
-    color: #fff;
+    color: #008080;
     border-radius: var(--roundness);
     z-index: 9999;
     padding-left: 1rem;
